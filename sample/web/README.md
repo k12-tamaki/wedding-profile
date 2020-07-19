@@ -1,3 +1,17 @@
+# 起動方法
+
+```
+cd web
+yarn dev
+```
+
+# ビルド
+
+```
+yarn build
+```
+
+
 MacOSにおけるフロントエンドの開発環境作成
 
 # brew
