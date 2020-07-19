@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    container_name: wedding_web
+    build: .
+    ports:
+      - 8090:8090
+    privileged: true
+    volumes:
+      - ../:/app
+    tty: true
+    stdin_open: true
+    command: /bin/sh
